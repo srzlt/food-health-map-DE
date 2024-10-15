@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRW Business Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin="anonymous" />
+    <style>
+        #map {
+            height: 100vh;
+            width: 100%;
+            position: relative; /* Ensure the map container stays within bounds */
+        }
+        .leaflet-container {
+            background: #f7f7f7; /* Add a background to make missing tiles more noticeable */
+        }
+        #loading {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading">Loading...</div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
