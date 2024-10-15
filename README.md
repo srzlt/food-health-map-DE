@@ -9,3 +9,5 @@ Eine Anfrage, die Daten maschinenlesbar anzubieten, wurde bereits an die Präsid
 All of this was developed with the help of ChatGPT just for fun, to show which restaurants in NRW (Germany) had past or current issues with food inspections. The app dynamically collects data from the official Food Transparency NRW portal, provided by the State Office for Nature, Environment, and Consumer Protection of North Rhine-Westphalia (LANUV), and displays their locations on an interactive map (OpenStreetMap) using Leaflet. Users can view business names and addresses on the map where inspections have been conducted. Since the data is not centrally available and machine-readable, a web scraper is used. Because the data is not clearly separated in a machine-readable format, not all inspected companies can be displayed.
 
 A request to provide the data in a machine-readable format has already been sent to the president of LANUV via email on 15.10.2024.
+
+![Screenshot](./screenshot.jpg)
